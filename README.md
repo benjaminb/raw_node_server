@@ -1,2 +1,2 @@
 # raw_node_server
-Node server implemented with only http module (no Express). 
+Node server template with basic routing implemented with only http module (no Express). 
