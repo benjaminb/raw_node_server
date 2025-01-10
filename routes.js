@@ -3,9 +3,7 @@ const requestHandler = (req, res) => {
     res.setHeader('Content-Type', 'text/html');
     res.write('<html>');
     res.write('<head><title>Homepage</title></head>');
-    res.write(
-      '<body><form action="/message" method="POST"><input type="text" name="message"><button type="submit">Send</button></form></body>'
-    );
+    res.write('<body><h1>Homepage</h1></body>');
     res.write('</html>');
     return res.end();
   } else if (req.url === '/message' && req.method === 'POST') {
